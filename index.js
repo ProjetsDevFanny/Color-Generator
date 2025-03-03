@@ -20,6 +20,7 @@ const changeBackground = () => {
   let colval = `rgb(${R}, ${G}, ${B})`;
 
   const body = document.querySelector("body");
+  // OU document.body.style.background = colval;
   body.style.background = colval;
   console.log(colval);
 
@@ -27,4 +28,4 @@ const changeBackground = () => {
   spanRgbDisplay.textContent = colval;
 };
 
-setInterval(changeBackground, 2200);
+setInterval(changeBackground, 1500);
